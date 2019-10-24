@@ -9,5 +9,5 @@ target 'Places_Aniversarie' do
  # Pods for Places_Aniversarie
     pod 'Firebase/Database'
     pod 'Firebase/Storage' 
-
+    pod 'SVProgressHUD'
 end

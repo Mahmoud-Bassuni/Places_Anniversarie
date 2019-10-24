@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		190E12A6236051A000BA3054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E12A5236051A000BA3054 /* AppDelegate.swift */; };
 		190E12A8236051A000BA3054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E12A7236051A000BA3054 /* SceneDelegate.swift */; };
-		190E12AA236051A000BA3054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E12A9236051A000BA3054 /* ViewController.swift */; };
+		190E12AA236051A000BA3054 /* PlacesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E12A9236051A000BA3054 /* PlacesListVC.swift */; };
 		190E12AD236051A000BA3054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190E12AB236051A000BA3054 /* Main.storyboard */; };
 		190E12AF236051A700BA3054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E12AE236051A700BA3054 /* Assets.xcassets */; };
 		190E12B2236051A700BA3054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190E12B0236051A700BA3054 /* LaunchScreen.storyboard */; };
+		192AEE022360C3A700AA09A8 /* PlaceManagementVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AEE012360C3A700AA09A8 /* PlaceManagementVM.swift */; };
+		1939C1AC2360D90700978F05 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1939C1AB2360D90700978F05 /* ViewModel.swift */; };
+		1939C1AF2360DA9D00978F05 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1939C1AE2360DA9D00978F05 /* BindingTextField.swift */; };
+		193F32682362112800B3B227 /* PlacesListVMProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F32672362112800B3B227 /* PlacesListVMProtocol.swift */; };
+		193F326B236226F200B3B227 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F326A236226F200B3B227 /* CustomImageView.swift */; };
+		19750C5C2361EC87001F403C /* PlacesListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19750C5B2361EC87001F403C /* PlacesListVM.swift */; };
+		197534C02360F49E00566E2E /* ProgressProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197534BF2360F49E00566E2E /* ProgressProtocol.swift */; };
+		197534C42360F64000566E2E /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197534C32360F64000566E2E /* Extension+UIViewController.swift */; };
+		19A6FD1C2360797F007F3FD5 /* PlacesDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FD1B2360797F007F3FD5 /* PlacesDB.swift */; };
+		19A6FD1E236079F7007F3FD5 /* PlacesDBServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FD1D236079F7007F3FD5 /* PlacesDBServices.swift */; };
+		19A6FD20236089C9007F3FD5 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FD1F236089C9007F3FD5 /* PlaceModel.swift */; };
+		19A6FD22236099DA007F3FD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19A6FD21236099D9007F3FD5 /* GoogleService-Info.plist */; };
+		19A6FD2423609A78007F3FD5 /* PlaceManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FD2323609A78007F3FD5 /* PlaceManagementVC.swift */; };
+		19A6FD262360B43A007F3FD5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FD252360B43A007F3FD5 /* MapVC.swift */; };
+		8BC447098034C17801A8D541 /* Pods_Places_Aniversarie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8E415E337994B3FD4FF382 /* Pods_Places_Aniversarie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098C453EF76A9FE3B16924EA /* Pods-Places_Aniversarie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places_Aniversarie.debug.xcconfig"; path = "Target Support Files/Pods-Places_Aniversarie/Pods-Places_Aniversarie.debug.xcconfig"; sourceTree = "<group>"; };
 		190E12A2236051A000BA3054 /* Places_Aniversarie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places_Aniversarie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		190E12A5236051A000BA3054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		190E12A5236051A000BA3054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../New Group/AppDelegate.swift"; sourceTree = "<group>"; };
 		190E12A7236051A000BA3054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		190E12A9236051A000BA3054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		190E12A9236051A000BA3054 /* PlacesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListVC.swift; sourceTree = "<group>"; };
 		190E12AC236051A000BA3054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		190E12AE236051A700BA3054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190E12B1236051A700BA3054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190E12B3236051A700BA3054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		192AEE012360C3A700AA09A8 /* PlaceManagementVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceManagementVM.swift; sourceTree = "<group>"; };
+		1939C1AB2360D90700978F05 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1939C1AE2360DA9D00978F05 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		193F32672362112800B3B227 /* PlacesListVMProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListVMProtocol.swift; sourceTree = "<group>"; };
+		193F326A236226F200B3B227 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		19750C5B2361EC87001F403C /* PlacesListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListVM.swift; sourceTree = "<group>"; };
+		197534BF2360F49E00566E2E /* ProgressProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressProtocol.swift; sourceTree = "<group>"; };
+		197534C32360F64000566E2E /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		19A6FD1B2360797F007F3FD5 /* PlacesDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesDB.swift; sourceTree = "<group>"; };
+		19A6FD1D236079F7007F3FD5 /* PlacesDBServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesDBServices.swift; sourceTree = "<group>"; };
+		19A6FD1F236089C9007F3FD5 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		19A6FD21236099D9007F3FD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		19A6FD2323609A78007F3FD5 /* PlaceManagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceManagementVC.swift; sourceTree = "<group>"; };
+		19A6FD252360B43A007F3FD5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		6C8E415E337994B3FD4FF382 /* Pods_Places_Aniversarie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Places_Aniversarie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E5DE361098A891B06C2255 /* Pods-Places_Aniversarie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Places_Aniversarie.release.xcconfig"; path = "Target Support Files/Pods-Places_Aniversarie/Pods-Places_Aniversarie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC447098034C17801A8D541 /* Pods_Places_Aniversarie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				190E12A4236051A000BA3054 /* Places_Aniversarie */,
 				190E12A3236051A000BA3054 /* Products */,
+				A17C4FE65BF489BB0A6B56AC /* Pods */,
+				62B750144B5E4D65207B236D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,151 @@
 		190E12A4236051A000BA3054 /* Places_Aniversarie */ = {
 			isa = PBXGroup;
 			children = (
-				190E12A5236051A000BA3054 /* AppDelegate.swift */,
-				190E12A7236051A000BA3054 /* SceneDelegate.swift */,
-				190E12A9236051A000BA3054 /* ViewController.swift */,
-				190E12AB236051A000BA3054 /* Main.storyboard */,
-				190E12AE236051A700BA3054 /* Assets.xcassets */,
-				190E12B0236051A700BA3054 /* LaunchScreen.storyboard */,
+				19A6FD21236099D9007F3FD5 /* GoogleService-Info.plist */,
+				19A6FD1823607506007F3FD5 /* Model */,
+				19A6FD17236074F6007F3FD5 /* View Model */,
+				19A6FD16236074E5007F3FD5 /* View */,
+				19A6FD14236074C6007F3FD5 /* Utilities */,
+				19A6FD13236074B4007F3FD5 /* Service */,
+				19A6FD1223607491007F3FD5 /* Assets */,
+				19A6FD1123607476007F3FD5 /* Application */,
 				190E12B3236051A700BA3054 /* Info.plist */,
 			);
 			path = Places_Aniversarie;
+			sourceTree = "<group>";
+		};
+		1939C1AD2360DA9100978F05 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				1939C1AE2360DA9D00978F05 /* BindingTextField.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		193F3269236226D400B3B227 /* CustomeControls */ = {
+			isa = PBXGroup;
+			children = (
+				193F326A236226F200B3B227 /* CustomImageView.swift */,
+			);
+			path = CustomeControls;
+			sourceTree = "<group>";
+		};
+		197534C12360F61800566E2E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				197534C32360F64000566E2E /* Extension+UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		197534C22360F62600566E2E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				197534BF2360F49E00566E2E /* ProgressProtocol.swift */,
+				193F32672362112800B3B227 /* PlacesListVMProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19A6FD1123607476007F3FD5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				190E12A7236051A000BA3054 /* SceneDelegate.swift */,
+				190E12A5236051A000BA3054 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		19A6FD1223607491007F3FD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				190E12AE236051A700BA3054 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		19A6FD13236074B4007F3FD5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				19A6FD1B2360797F007F3FD5 /* PlacesDB.swift */,
+				19A6FD1D236079F7007F3FD5 /* PlacesDBServices.swift */,
+			);
+			name = Service;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		19A6FD14236074C6007F3FD5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				193F3269236226D400B3B227 /* CustomeControls */,
+				197534C22360F62600566E2E /* Protocols */,
+				197534C12360F61800566E2E /* Extension */,
+				1939C1AD2360DA9100978F05 /* Binding */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		19A6FD16236074E5007F3FD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19A6FD1A2360752E007F3FD5 /* Storyboard */,
+				19A6FD192360751D007F3FD5 /* View Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19A6FD17236074F6007F3FD5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				192AEE012360C3A700AA09A8 /* PlaceManagementVM.swift */,
+				1939C1AB2360D90700978F05 /* ViewModel.swift */,
+				19750C5B2361EC87001F403C /* PlacesListVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		19A6FD1823607506007F3FD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19A6FD1F236089C9007F3FD5 /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19A6FD192360751D007F3FD5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				190E12A9236051A000BA3054 /* PlacesListVC.swift */,
+				19A6FD2323609A78007F3FD5 /* PlaceManagementVC.swift */,
+				19A6FD252360B43A007F3FD5 /* MapVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		19A6FD1A2360752E007F3FD5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				190E12AB236051A000BA3054 /* Main.storyboard */,
+				190E12B0236051A700BA3054 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		62B750144B5E4D65207B236D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8E415E337994B3FD4FF382 /* Pods_Places_Aniversarie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17C4FE65BF489BB0A6B56AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				098C453EF76A9FE3B16924EA /* Pods-Places_Aniversarie.debug.xcconfig */,
+				D6E5DE361098A891B06C2255 /* Pods-Places_Aniversarie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 190E12B6236051A700BA3054 /* Build configuration list for PBXNativeTarget "Places_Aniversarie" */;
 			buildPhases = (
+				5DFA8E1AE511C7F4A18362BC /* [CP] Check Pods Manifest.lock */,
 				190E129E236051A000BA3054 /* Sources */,
 				190E129F236051A000BA3054 /* Frameworks */,
 				190E12A0236051A000BA3054 /* Resources */,
+				DD0C9D8B9CD70FE1340014E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				190E12B2236051A700BA3054 /* LaunchScreen.storyboard in Resources */,
+				19A6FD22236099DA007F3FD5 /* GoogleService-Info.plist in Resources */,
 				190E12AF236051A700BA3054 /* Assets.xcassets in Resources */,
 				190E12AD236051A000BA3054 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +307,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DFA8E1AE511C7F4A18362BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Places_Aniversarie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0C9D8B9CD70FE1340014E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Places_Aniversarie/Pods-Places_Aniversarie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Places_Aniversarie/Pods-Places_Aniversarie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Places_Aniversarie/Pods-Places_Aniversarie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		190E129E236051A000BA3054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190E12AA236051A000BA3054 /* ViewController.swift in Sources */,
+				1939C1AC2360D90700978F05 /* ViewModel.swift in Sources */,
+				190E12AA236051A000BA3054 /* PlacesListVC.swift in Sources */,
+				19A6FD20236089C9007F3FD5 /* PlaceModel.swift in Sources */,
+				19A6FD2423609A78007F3FD5 /* PlaceManagementVC.swift in Sources */,
+				197534C02360F49E00566E2E /* ProgressProtocol.swift in Sources */,
 				190E12A6236051A000BA3054 /* AppDelegate.swift in Sources */,
 				190E12A8236051A000BA3054 /* SceneDelegate.swift in Sources */,
+				19A6FD262360B43A007F3FD5 /* MapVC.swift in Sources */,
+				197534C42360F64000566E2E /* Extension+UIViewController.swift in Sources */,
+				193F326B236226F200B3B227 /* CustomImageView.swift in Sources */,
+				19A6FD1E236079F7007F3FD5 /* PlacesDBServices.swift in Sources */,
+				19750C5C2361EC87001F403C /* PlacesListVM.swift in Sources */,
+				1939C1AF2360DA9D00978F05 /* BindingTextField.swift in Sources */,
+				193F32682362112800B3B227 /* PlacesListVMProtocol.swift in Sources */,
+				19A6FD1C2360797F007F3FD5 /* PlacesDB.swift in Sources */,
+				192AEE022360C3A700AA09A8 /* PlaceManagementVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +511,7 @@
 		};
 		190E12B7236051A700BA3054 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098C453EF76A9FE3B16924EA /* Pods-Places_Aniversarie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +530,7 @@
 		};
 		190E12B8236051A700BA3054 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E5DE361098A891B06C2255 /* Pods-Places_Aniversarie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

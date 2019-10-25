@@ -38,9 +38,10 @@ class PlacesDBServices
         })
     }
     func deletePlace(_ id : String ,_ complete : @escaping () -> ()){
+   DispatchQueue.global(qos: .background).async {
         PlacesDB.shared.placesReference.child(id).removeValue()
-
         complete()
+        }
     }
     func fetchPlaces(_ callBack : @escaping (DataSnapshot) -> ()){
           DispatchQueue.global(qos: .background).async {

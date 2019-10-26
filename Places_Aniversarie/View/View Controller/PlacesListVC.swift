@@ -16,6 +16,8 @@ class PlaceListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         placesPropTV.tableFooterView = UIView()
+        self.navigationItem.setHidesBackButton(true, animated:true);
+
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
